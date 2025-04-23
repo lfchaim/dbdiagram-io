@@ -34,6 +34,7 @@ Entregue a modelagem com os tópicos acima, utilizando linguagem clara e objetiv
 
 
 # DBdiagram
+```
 Table "Rule" {
   "rule_id" INT [pk, increment]
   "group_rule_id" INT
@@ -87,3 +88,4 @@ Ref:"Condition"."condition_id" < "ConditionNode"."condition_id"
 Ref:"Rule"."rule_id" < "ConditionNode"."rule_id"
 
 Ref:"Rule"."rule_id" < "Action"."rule_id"
+```
